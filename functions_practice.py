@@ -20,3 +20,11 @@ def eat_lunch(my_list):
                 print(f"first I eat {my_list[0]}")
             else:
                 print(f"Next i eat {my_list[1]}")
+
+
+hello()
+print(pack("a","b","c"))
+print(pack(1,2,3))
+eat_lunch([])
+eat_lunch(["sandwich"])
+eat_lunch(["apple","banana","sandwich","cookie"])
